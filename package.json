@@ -6,7 +6,7 @@
     "start": "node bin/www",
     "prestart": "npm install",
     "pretest": "npm install",
-    "coverage": "nyc --reporter lcov npm run test",
+    "coverage": "nyc --reporter lcov npm run test", 
     "test": "cross-env PORT=8001 ./node_modules/.bin/mocha test --exit"
   },
   "dependencies": {
